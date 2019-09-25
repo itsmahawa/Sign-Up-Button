@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Profile</title>
+    <link href="bootstrap.css" rel="stylesheet" />
+    <style>
+      body { background-color:rgb(228, 220, 220)}
+      h1 {text-align: center}
+      .form-wrap {text-align: center}
+      button {
+        display: block;
+        width: 100%;
+        padding: 5px;
+        margin-top: 10px;
+        background: rgb(132, 176, 226);
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body class=".bg-primary">
+    <div class="container">
+      <div class="mx-auto" style="width: 300px;">
+      <div class="text-left">
+        <h1 text-center>Profile</h1>
+        
+        <form>
+          <div class="form-group">
+            <label for="First-Name">Username</label>
+            <input
+              type="text"
+              class="form-control"
+              id="First-Name"
+              placeholder="Username"
+            />
+          </div>
+          <div class="form-group">
+            <label for="Last-Name">Email</label>
+            <input
+              type="text"
+              class="form-control"
+              id="last-name"
+              placeholder="Email"
+            />
+          </div>
+          <div class="form-group">
+            <label for="Email">First Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="email"
+              placeholder="Email"
+            />
+          </div>
+          <div class="form-group">
+            <label for="Password">Last Name</label
+            ><input
+              type="password"
+              class="form-control"
+              placeholder="Last Name"
+              id="password"
+            />
+          </div>
+          
+          <button type="button" style="width: 300px"; class="btn btn-success"> Create Website</button> <br> <br>
+        <button type="button" style="width: 300px"; class="btn btn-danger"> Logout</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
